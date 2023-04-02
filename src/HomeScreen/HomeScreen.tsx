@@ -17,7 +17,7 @@ export const HomeScreen: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.text}>Instagram Stories</Text>
-      <Text style={styles.name}>by George Alexiou</Text>
+      <Text style={styles.name}>by Ezitouni Oussama</Text>
       <View style={styles.storiesContainer}>
         <ScrollView
           horizontal
@@ -45,7 +45,7 @@ export const HomeScreen: React.FC = () => {
       </View>
       <View style={styles.buttonContainer}>
         <SmallButton
-          title="Renerate Stories"
+          title="Regenerate Stories"
           onPress={() => setStories(generateRandomUsersAndStories())}
         />
       </View>
